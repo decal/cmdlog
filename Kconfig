@@ -1,0 +1,6 @@
+config SECURITY_CMDLOG
+	bool "Command Logging Kernel Support"
+	default y
+	help
+	  This log commands that users execute.
+	  If you are unsure how to answer this question, answer N.
